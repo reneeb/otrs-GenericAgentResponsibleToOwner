@@ -1,0 +1,16 @@
+{
+    "name": "GenericAgentResponsibleToOwner",
+    "version": "4.0.1",
+    "framework": [
+        "4.0.x"
+    ],
+    "vendor": {
+        "name":  "Perl-Services.de",
+        "url": "http://www.perl-services.de"
+    },
+    "license": "GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007",
+    "description" : {
+        "en": "A custom generic agent module to make the responsible the new ticket owner",
+        "de": "Ein GenericAgent-Modul um den Verantwortlichen zum neuen Ticketbesitzer zu machen"
+    }
+}

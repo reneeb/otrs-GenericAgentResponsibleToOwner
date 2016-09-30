@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<otrs_package version="1.0">
+    <!-- GENERATED WITH OTRS::OPM::Maker::Command::sopm (1.33) -->
+    <Name>GenericAgentResponsibleToOwner</Name>
+    <Version>4.0.1</Version>
+    <Framework>4.0.x</Framework>
+    <Vendor>Perl-Services.de</Vendor>
+    <URL>http://www.perl-services.de</URL>
+    <Description Lang="de">Ein GenericAgent-Modul um den Verantwortlichen zum neuen Ticketbesitzer zu machen</Description>
+    <Description Lang="en">A custom generic agent module to make the responsible the new ticket owner</Description>
+    <License>GNU AFFERO GENERAL PUBLIC LICENSE Version 3, November 2007</License>
+    <Filelist>
+        <File Permission="644" Location="Kernel/System/GenericAgent/ResponsibleToOwner.pm" />
+        <File Permission="644" Location="doc/GenericAgentResponsibleToOwner.json" />
+        <File Permission="644" Location="doc/en/GenericAgentResponsibleToOwner.pod" />
+    </Filelist>
+</otrs_package>

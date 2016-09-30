@@ -1,0 +1,23 @@
+=head1 NAME
+
+GenericAgentResponsibleToOwner
+
+=head1 DESCRIPTION
+
+This is a module to set the responsible user as the ticket owner. Currently it's not possible to use a variable to set the ticket owner in the GenericAgent.
+
+Use case: A ticket should be assigned to the responsible when the ticket wasn't updated for the last 4 days.
+
+Create a GenericAgent job, give it a name and select minute "5", all hours and Monday to Friday in the time based trigger. In the ticket filter, you have to
+check the "last update time" and select "more than 4 days". Insert I<Kernel::System::GenericAgent::ResponsibleToOwner> in the "Custom module" field. That's it.
+
+=head1 REPOSITORY AND BUGTRACKER
+
+The code repository and a bugtracker is available at
+L<http://github.com/reneeb/otrs-GenericAgentResponsibleToOwner>.
+
+=head1 AUTHOR AND LICENSE
+
+This addon is licensed under the terms of AGPL 3.
+
+Renee Baecker, C<< <info@perl-services.de> >>
